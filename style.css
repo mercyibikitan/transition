@@ -1,0 +1,18 @@
+ body{
+    margin-top:20;
+ }
+.box{
+    width:200px;
+    height:200px;
+    background:#EF64E9;
+    transition-duration: 2s;
+    transition-property: background;
+    transition-timing-function:0.84, 0.14, 0.24, 1.33);
+   
+}
+
+
+.box:hover{
+    background-color: #4EED28;
+    transform: rotate(45deg);
+}
